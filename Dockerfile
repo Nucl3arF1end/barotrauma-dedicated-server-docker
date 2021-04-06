@@ -2,7 +2,6 @@
 # Dockerfile that builds a Barotrauma server
 ###########################################################
 FROM cm2network/steamcmd:root
-MAINTAINER urmet0 hannes.spenger@gmail.com
 
 LABEL maintainer="leon.pelech@gmail.com"
 
