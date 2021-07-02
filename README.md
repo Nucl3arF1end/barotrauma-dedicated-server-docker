@@ -20,6 +20,13 @@ Just run the command...
     --name barotrauma-server \
     goldfish92/barotrauma-dedicated-server
 ```
+OR
+
+```bash
+
+docker-compose up -d
+
+```
 
 Change the environment variables for password and server name to customize your server.
 
