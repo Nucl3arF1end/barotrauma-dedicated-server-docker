@@ -43,3 +43,5 @@ Mount a volume when running the container to persist multiplayer saves between c
 -v saves:"/home/steam/.local/share/Daedalic Entertainment GmbH/Barotrauma/Multiplayer"
 ```
 mounts the volume `saves` on the host into the Barotrauma Multiplayer directory where saves are created. These save files can then be accessed on the host or mounted between container restarts.
+
+submarines и saves вынесены в директорию проекта, примаплены в докер.
