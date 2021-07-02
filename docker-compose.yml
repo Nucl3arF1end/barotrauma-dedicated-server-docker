@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  barotrauma:
+    build: .
+    ports: 
+      - "27015:27015/udp"
+      - "27015:27015/tcp"
+      - "27016:27016/udp"
+      - "27016:27016/tcp"
+    volumes:
+      - ./submarines:/home/steam/barotrauma-dedicated/Submarines/github
+      - ./saves:/home/steam/.local/share/Daedalic Entertainment GmbH/Barotrauma/Multiplayer
+    environment:
+      - BAR_PASSWORD=${BAR_PASSWORD}
+      - BAR_NAME=${BAR_NAME}
+      - BAR_SERVERMESSAGE=${BAR_SERVERMESSAGE}
+      - BAR_START_WHEN_CLIENTS_READY=${BAR_START_WHEN_CLIENTS_READY}
+      - BAR_START_WHEN_CLIENTS_READY_RATIO=${BAR_START_WHEN_CLIENTS_READY_RATIO}
+      - BAR_PERMISSIONS=${BAR_PERMISSIONS}
