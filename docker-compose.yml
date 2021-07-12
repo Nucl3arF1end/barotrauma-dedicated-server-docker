@@ -11,6 +11,7 @@ services:
     volumes:
       - ./submarines:/home/steam/barotrauma-dedicated/Submarines/github
       - ./saves:/home/steam/.local/share/Daedalic Entertainment GmbH/Barotrauma/Multiplayer
+      - ./settings/serversettings.xml:/home/steam/barotrauma-dedicated/serversettings.xml
     environment:
       - BAR_PASSWORD=${BAR_PASSWORD}
       - BAR_NAME=${BAR_NAME}

@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CharacterData>
+  <CharacterCampaignData name="titanrat" endpoint="STEAM_1:1:13725018" steamid="76561197987715765">
+    <Character name="titanrat" originalname="titanrat" speciesname="human" gender="male" race="Asian" salary="3566" headspriteid="3" hairindex="2" beardindex="1" moustacheindex="1" faceattachmentindex="0" startitemsgiven="false" ragdoll="" personality="Professional">
+      <job name="Инженер" identifier="engineer">
+        <skill identifier="electrical" level="57.247925" />
+        <skill identifier="mechanical" level="34.925728" />
+        <skill identifier="weapons" level="20.88192" />
+        <skill identifier="medical" level="22.1367" />
+        <skill identifier="helm" level="7.5327263" />
+      </job>
+    </Character>
+    <inventory>
+      <Item name="" identifier="idcard" ID="3246" rect="-950,8,16,16" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="1" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,idcard,id_engineer,name:titanrat,job:Инженер,jobid:engineer,gender:male,race:Asian,headspriteid:3,hairindex:2,beardindex:1,moustacheindex:1,faceattachmentindex:0,sheetindex:2;0" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False" i="0">
+        <IdCard pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+      </Item>
+      <Item name="" identifier="headset" ID="3251" rect="-954,15,24,31" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,mobileradio" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="1">
+        <WifiComponent teamid="Team1" range="35000" channel="0" allowcrossteamcommunication="False" linktochat="True" minchatmessageinterval="0" discardduplicatechatmessages="False" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" channelmemory="0,1,2,3,4,5,6,7,8,9">
+          <requireditem items="mobilebattery" type="Contained" optional="false" ignoreineditor="false" excludebroken="true" />
+        </WifiComponent>
+        <ItemContainer containablerestrictions="" autofill="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" contained="3252" />
+        <Wearable pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" variant="1" />
+        <inventory>
+          <Item name="" identifier="batterycell" ID="3252" rect="-950,5,17,10" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,loadable,mobilebattery" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False" i="0">
+            <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+          </Item>
+        </inventory>
+      </Item>
+      <Item name="" identifier="orangejumpsuit1" ID="3261" rect="-994,17,104,35" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,clothing" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="3">
+        <Wearable pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" variant="1" />
+      </Item>
+      <Item name="" identifier="toolbelt" ID="3262" rect="-970,13,56,27" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,mobilecontainer,tool" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="7">
+        <Wearable pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgEquipSelect" variant="1" />
+        <Holdable holdpos="0,-70" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpUse" />
+        <ItemContainer containablerestrictions="" autofill="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" contained=",,,,," />
+        <inventory />
+      </Item>
+      <Item name="" identifier="wrench" ID="3263" rect="-958,5,32,10" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,tool" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="8">
+        <MeleeWeapon holdpos="0,0" holdangle="60" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+      </Item>
+      <Item name="" identifier="screwdriver" ID="3270" rect="-958,3,32,7" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,tool" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="9">
+        <MeleeWeapon holdpos="0,0" holdangle="60" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+      </Item>
+      <Item name="" identifier="divingknife" ID="3277" flippedx="true" rect="-958,4,33,8" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="-0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,weapon" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="10">
+        <MeleeWeapon holdpos="0,0" holdangle="30" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+      </Item>
+      <Item name="" identifier="weldingtool" ID="3278" flippedx="true" rect="-966,18,48,37" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="-0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,weldingequipment,tool,weldingtool,tools" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="11">
+        <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+        <LightComponent range="100" castshadows="True" drawbehindsubs="False" ison="False" flicker="0.5" flickerspeed="1" pulsefrequency="0" pulseamount="0" blinkfrequency="0" lightcolor="255,229,177,255" minvoltage="0" powerconsumption="0" voltage="1" vulnerabletoemp="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
+        <RepairTool barrelrotation="0" pickingtime="0" canbepicked="False" allowingameediting="True" msg="">
+          <requireditem items="weldingtoolfuel,oxygensource" type="Contained" optional="false" ignoreineditor="false" excludebroken="true" />
+        </RepairTool>
+        <ItemContainer containablerestrictions="" autofill="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" contained="3279" />
+        <inventory>
+          <Item name="" identifier="weldingfueltank" ID="3279" condition="54.009132" rect="-948,16,12,33" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" invulnerabletodamage="False" tags="smallitem,weldingtoolfuel,weldingfuel,weldingfueltank" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="0">
+            <Holdable holdpos="29.999998,-14.999999" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+          </Item>
+        </inventory>
+      </Item>
+      <Item name="" identifier="stunbaton" ID="3280" flippedx="true" rect="-989,15,95,31" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="-0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,weapon,stunner" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="12">
+        <MeleeWeapon holdpos="0,0" holdangle="45" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+        <ItemContainer containablerestrictions="" autofill="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" contained="3284" />
+        <inventory>
+          <Item name="" identifier="batterycell" ID="3284" rect="-950,5,17,10" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,loadable,mobilebattery" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False" i="0">
+            <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+          </Item>
+        </inventory>
+      </Item>
+      <Item name="" identifier="plasmacutter" ID="3285" flippedx="true" rect="-981,21,79,43" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="-0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,cuttingequipment,tool,light" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="13">
+        <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+        <LightComponent range="100" castshadows="True" drawbehindsubs="False" ison="False" flicker="0.5" flickerspeed="1" pulsefrequency="0" pulseamount="0" blinkfrequency="0" lightcolor="204,178,255,255" minvoltage="0" powerconsumption="0" voltage="1" vulnerabletoemp="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
+        <RepairTool barrelrotation="0" pickingtime="0" canbepicked="False" allowingameediting="True" msg="">
+          <requireditem items="oxygensource,weldingtoolfuel" type="Contained" optional="false" ignoreineditor="false" excludebroken="true" />
+        </RepairTool>
+        <ItemContainer containablerestrictions="" autofill="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" contained="1755" />
+        <inventory>
+          <Item name="" identifier="oxygentank" ID="1755" rect="-948,16,12,33" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,oxygensource,refillableoxygensource" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="0">
+            <Holdable holdpos="29.999998,-14.999999" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+          </Item>
+        </inventory>
+      </Item>
+      <Item name="" identifier="divingmask" ID="3291" rect="-959,17,34,34" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,diving,lightdiving" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="17">
+        <Wearable pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" variant="1" />
+        <ItemContainer containablerestrictions="" autofill="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" contained="3292" />
+        <inventory>
+          <Item name="" identifier="oxygentank" ID="3292" rect="-948,16,12,33" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,oxygensource,refillableoxygensource" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="0">
+            <Holdable holdpos="29.999998,-14.999999" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+          </Item>
+        </inventory>
+      </Item>
+    </inventory>
+    <health>
+      <Affliction identifier="bloodloss" strength="4.4557214" />
+      <LimbHealth i="0">
+        <Affliction identifier="burn" strength="0.16666669" />
+      </LimbHealth>
+      <LimbHealth i="1">
+        <Affliction identifier="burn" strength="0.19444449" />
+        <Affliction identifier="bitewounds" strength="5" />
+      </LimbHealth>
+      <LimbHealth i="2">
+        <Affliction identifier="burn" strength="0.051851854" />
+      </LimbHealth>
+      <LimbHealth i="3" />
+      <LimbHealth i="4" />
+      <LimbHealth i="5">
+        <Affliction identifier="lacerations" strength="4.457384" />
+      </LimbHealth>
+    </health>
+    <orders />
+  </CharacterCampaignData>
+  <CharacterCampaignData name="Zubagamer" endpoint="STEAM_1:1:81015306" steamid="76561198122296341">
+    <Character name="Zubagamer" originalname="Zubagamer" speciesname="human" gender="male" race="White" salary="3222" headspriteid="6" hairindex="2" beardindex="0" moustacheindex="2" faceattachmentindex="0" startitemsgiven="false" ragdoll="" personality="Fearful">
+      <job name="Капитан" identifier="captain">
+        <skill identifier="helm" level="50.87065" />
+        <skill identifier="weapons" level="32.98373" />
+        <skill identifier="mechanical" level="27.217394" />
+        <skill identifier="electrical" level="26.787092" />
+        <skill identifier="medical" level="6.6186113" />
+      </job>
+    </Character>
+    <inventory>
+      <Item name="" identifier="idcard" ID="3294" rect="1331,8,16,16" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="1" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,idcard,id_captain,name:Zubagamer,job:Капитан,jobid:captain,gender:male,race:White,headspriteid:6,hairindex:2,beardindex:0,moustacheindex:2,faceattachmentindex:0,sheetindex:0;2" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False" i="0">
+        <IdCard pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+      </Item>
+      <Item name="" identifier="headset" ID="3297" rect="1327,15,24,31" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,mobileradio" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="1">
+        <WifiComponent teamid="Team1" range="35000" channel="0" allowcrossteamcommunication="False" linktochat="True" minchatmessageinterval="0" discardduplicatechatmessages="False" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" channelmemory="0,1,2,3,4,5,6,7,8,9">
+          <requireditem items="mobilebattery" type="Contained" optional="false" ignoreineditor="false" excludebroken="true" />
+        </WifiComponent>
+        <ItemContainer containablerestrictions="" autofill="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" contained="3299" />
+        <Wearable pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" variant="1" />
+        <inventory>
+          <Item name="" identifier="batterycell" ID="3299" rect="1331,5,17,10" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,loadable,mobilebattery" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False" i="0">
+            <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+          </Item>
+        </inventory>
+      </Item>
+      <Item name="" identifier="captainscap2" ID="3305" rect="1326,9,27,18" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.4" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,clothing" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="2">
+        <Wearable pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" variant="1" />
+      </Item>
+      <Item name="" identifier="doctorsuniform2" ID="3306" rect="1289,17,100,35" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" originaloutpost="Hyperenor Linea" tags="smallitem,clothing" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="3">
+        <Wearable pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" variant="1" />
+        <ItemContainer containablerestrictions="" autofill="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" contained=",," />
+        <inventory />
+      </Item>
+      <Item name="" identifier="toolbelt" ID="3307" rect="1311,13,56,27" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,mobilecontainer,tool" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="7">
+        <Wearable pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgEquipSelect" variant="1" />
+        <Holdable holdpos="0,-70" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpUse" />
+        <ItemContainer containablerestrictions="" autofill="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" contained="3308,1640,,3310,," />
+        <inventory>
+          <Item name="" identifier="plasmacutter" ID="3308" flippedx="true" rect="1300,21,79,43" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="-0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,cuttingequipment,tool,light" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="0">
+            <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+            <LightComponent range="100" castshadows="True" drawbehindsubs="False" ison="False" flicker="0.5" flickerspeed="1" pulsefrequency="0" pulseamount="0" blinkfrequency="0" lightcolor="204,178,255,255" minvoltage="0" powerconsumption="0" voltage="1" vulnerabletoemp="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
+            <RepairTool barrelrotation="0" pickingtime="0" canbepicked="False" allowingameediting="True" msg="">
+              <requireditem items="oxygensource,weldingtoolfuel" type="Contained" optional="false" ignoreineditor="false" excludebroken="true" />
+            </RepairTool>
+            <ItemContainer containablerestrictions="" autofill="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" contained="3309" />
+            <inventory>
+              <Item name="" identifier="oxygentank" ID="3309" condition="92.598526" rect="1333,16,12,33" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" invulnerabletodamage="False" tags="smallitem,oxygensource,refillableoxygensource" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="0">
+                <Holdable holdpos="29.999998,-14.999999" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+              </Item>
+            </inventory>
+          </Item>
+          <Item name="" identifier="screwdriver" ID="1640" rect="1323,3,32,7" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" originaloutpost="Hyperenor Linea" tags="smallitem,tool" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="1">
+            <MeleeWeapon holdpos="0,0" holdangle="60" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+          </Item>
+          <Item name="" identifier="wrench" ID="3310" rect="1323,5,32,10" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,tool" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="3">
+            <MeleeWeapon holdpos="0,0" holdangle="60" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+          </Item>
+        </inventory>
+      </Item>
+    </inventory>
+    <health>
+      <Affliction identifier="drunk" strength="19.678774" />
+      <Affliction identifier="organdamage" strength="0.44972813" />
+      <LimbHealth i="0" />
+      <LimbHealth i="1">
+        <Affliction identifier="burn" strength="0.0625" />
+      </LimbHealth>
+      <LimbHealth i="2">
+        <Affliction identifier="lacerations" strength="14.824814" />
+        <Affliction identifier="burn" strength="6.25" />
+      </LimbHealth>
+      <LimbHealth i="3">
+        <Affliction identifier="lacerations" strength="9.824814" />
+        <Affliction identifier="burn" strength="6.2708335" />
+      </LimbHealth>
+      <LimbHealth i="4">
+        <Affliction identifier="burn" strength="0.020833334" />
+        <Affliction identifier="blunttrauma" strength="4.5" />
+      </LimbHealth>
+      <LimbHealth i="5">
+        <Affliction identifier="lacerations" strength="4.960825" />
+      </LimbHealth>
+    </health>
+    <orders />
+  </CharacterCampaignData>
+  <CharacterCampaignData name="BORIS THE BLADE" endpoint="STEAM_1:0:57798610" steamid="76561198075862948">
+    <Character name="BORIS THE BLADE" originalname="BORIS THE BLADE" speciesname="human" gender="female" race="White" salary="4160" headspriteid="3" hairindex="2" beardindex="0" moustacheindex="0" faceattachmentindex="0" startitemsgiven="false" ragdoll="" personality="Laid-back">
+      <job name="Врач" identifier="medicaldoctor">
+        <skill identifier="medical" level="52.543686" />
+        <skill identifier="weapons" level="17.12776" />
+        <skill identifier="mechanical" level="16.203568" />
+        <skill identifier="electrical" level="18.24753" />
+        <skill identifier="helm" level="8.866099" />
+      </job>
+    </Character>
+    <inventory>
+      <Item name="" identifier="idcard" ID="3313" rect="-329,8,16,16" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="1" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,idcard,id_medic,name:BORIS THE BLADE,job:Врач,jobid:medicaldoctor,gender:female,race:White,headspriteid:3,hairindex:2,beardindex:0,moustacheindex:0,faceattachmentindex:0,sheetindex:2;0" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False" i="0">
+        <IdCard pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+      </Item>
+      <Item name="" identifier="headset" ID="3314" rect="-333,15,24,31" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,mobileradio" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="1">
+        <WifiComponent teamid="Team1" range="35000" channel="0" allowcrossteamcommunication="False" linktochat="True" minchatmessageinterval="0" discardduplicatechatmessages="False" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" channelmemory="0,1,2,3,4,5,6,7,8,9">
+          <requireditem items="mobilebattery" type="Contained" optional="false" ignoreineditor="false" excludebroken="true" />
+        </WifiComponent>
+        <ItemContainer containablerestrictions="" autofill="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" contained="3315" />
+        <Wearable pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" variant="1" />
+        <inventory>
+          <Item name="" identifier="batterycell" ID="3315" rect="-330,5,17,10" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,loadable,mobilebattery" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False" i="0">
+            <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+          </Item>
+        </inventory>
+      </Item>
+      <Item name="" identifier="healthscanner" ID="3316" rect="-340,6,37,13" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,clothing" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="2">
+        <Wearable pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" variant="1" />
+        <StatusHUD pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
+      </Item>
+      <Item name="" identifier="doctorsuniform1" ID="3317" rect="-370,21,98,42" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,clothing" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="3">
+        <Wearable pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" variant="1" />
+        <ItemContainer containablerestrictions="" autofill="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" contained="3318;3319;3320;3321;3322;3323;3324;3325,3327;3328;3329;3330;3331;3332;3333,3334;3335;3336;3337" />
+        <inventory>
+          <Item name="" identifier="antibloodloss2" ID="3318" rect="-342,11,41,22" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,chem,medical,petfood1" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="0">
+            <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+          </Item>
+          <Item name="" identifier="antibloodloss2" ID="3319" rect="-342,11,41,22" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,chem,medical,petfood1" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="0">
+            <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+          </Item>
+          <Item name="" identifier="antibloodloss2" ID="3320" rect="-341,10,39,21" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,chem,medical,petfood1" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="0">
+            <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+          </Item>
+          <Item name="" identifier="antibloodloss2" ID="3321" rect="-342,11,41,22" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,chem,medical,petfood1" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="0">
+            <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+          </Item>
+          <Item name="" identifier="antibloodloss2" ID="3322" rect="-341,10,39,21" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,chem,medical,petfood1" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="0">
+            <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+          </Item>
+          <Item name="" identifier="antibloodloss2" ID="3323" rect="-341,10,39,21" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,chem,medical,petfood1" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="0">
+            <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+          </Item>
+          <Item name="" identifier="antibloodloss2" ID="3324" rect="-342,11,41,22" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,chem,medical,petfood1" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="0">
+            <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+          </Item>
+          <Item name="" identifier="antibloodloss2" ID="3325" rect="-342,11,41,22" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,chem,medical,petfood1" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="0">
+            <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+          </Item>
+          <Item name="" identifier="antibleeding2" ID="3327" rect="-328,10,13,21" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,medical" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="1">
+            <MeleeWeapon holdpos="0,0" holdangle="10" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+          </Item>
+          <Item name="" identifier="antibleeding2" ID="3328" rect="-328,10,13,21" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,medical" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="1">
+            <MeleeWeapon holdpos="0,0" holdangle="10" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+          </Item>
+          <Item name="" identifier="antibleeding2" ID="3329" rect="-328,10,13,21" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,medical" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="1">
+            <MeleeWeapon holdpos="0,0" holdangle="10" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+          </Item>
+          <Item name="" identifier="antibleeding2" ID="3330" rect="-328,10,13,21" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,medical" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="1">
+            <MeleeWeapon holdpos="0,0" holdangle="10" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+          </Item>
+          <Item name="" identifier="antibleeding2" ID="3331" rect="-328,10,13,21" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,medical" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="1">
+            <MeleeWeapon holdpos="0,0" holdangle="10" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+          </Item>
+          <Item name="" identifier="antibleeding2" ID="3332" rect="-328,10,13,21" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,medical" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="1">
+            <MeleeWeapon holdpos="0,0" holdangle="10" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+          </Item>
+          <Item name="" identifier="antibleeding2" ID="3333" rect="-328,10,13,21" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,medical" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="1">
+            <MeleeWeapon holdpos="0,0" holdangle="10" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+          </Item>
+          <Item name="" identifier="antidama1" ID="3334" rect="-330,17,18,34" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,chem,medical,syringe" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="2">
+            <MeleeWeapon holdpos="0,0" holdangle="220" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+            <Projectile pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
+          </Item>
+          <Item name="" identifier="antidama1" ID="3335" rect="-330,17,18,34" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,chem,medical,syringe" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="2">
+            <MeleeWeapon holdpos="0,0" holdangle="220" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+            <Projectile pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
+          </Item>
+          <Item name="" identifier="antidama1" ID="3336" rect="-330,17,18,34" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,chem,medical,syringe" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="2">
+            <MeleeWeapon holdpos="0,0" holdangle="220" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+            <Projectile pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
+          </Item>
+          <Item name="" identifier="antidama1" ID="3337" rect="-330,17,18,34" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,chem,medical,syringe" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="2">
+            <MeleeWeapon holdpos="0,0" holdangle="220" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+            <Projectile pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
+          </Item>
+        </inventory>
+      </Item>
+      <Item name="" identifier="toolbelt" ID="3338" rect="-349,13,56,27" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,mobilecontainer,tool" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="7">
+        <Wearable pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgEquipSelect" variant="1" />
+        <Holdable holdpos="0,-70" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpUse" />
+        <ItemContainer containablerestrictions="" autofill="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" contained="3339;3340;3341,,1787,,," />
+        <inventory>
+          <Item name="" identifier="oxygentank" ID="3339" rect="-327,16,11,32" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,oxygensource,refillableoxygensource,oxygentank" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="0">
+            <Holdable holdpos="29.999998,-14.999999" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+          </Item>
+          <Item name="" identifier="oxygentank" ID="3340" rect="-327,16,12,33" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,oxygensource,refillableoxygensource" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="0">
+            <Holdable holdpos="29.999998,-14.999999" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+          </Item>
+          <Item name="" identifier="oxygentank" ID="3341" rect="-327,16,12,33" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,oxygensource,refillableoxygensource" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="0">
+            <Holdable holdpos="29.999998,-14.999999" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+          </Item>
+          <Item name="" identifier="antibleeding1" ID="1787" rect="-328,10,13,21" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,medical" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="2">
+            <MeleeWeapon holdpos="0,0" holdangle="10" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+          </Item>
+        </inventory>
+      </Item>
+      <Item name="" identifier="smg" ID="3343" rect="-357,20,72,40" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,weapon,gun" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="8">
+        <Holdable holdpos="35,-9.999999" holdangle="-40" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+        <RangedWeapon pickingtime="0" canbepicked="False" allowingameediting="True" msg="">
+          <requireditem items="smgmagazine" type="Contained" optional="false" ignoreineditor="false" excludebroken="true" />
+        </RangedWeapon>
+        <ItemContainer containablerestrictions="" autofill="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" contained="3344" />
+        <inventory>
+          <Item name="" identifier="smgmagazine" ID="3344" rect="-329,11,16,22" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,smgammo" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.54" hiddeningame="False" i="0">
+            <ItemContainer containablerestrictions="" autofill="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" contained="3345" />
+            <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+            <inventory>
+              <Item name="" identifier="smground" ID="3345" rect="-325,1,8,3" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="0">
+                <Pickable pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+                <Projectile pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
+              </Item>
+            </inventory>
+          </Item>
+        </inventory>
+      </Item>
+      <Item name="" identifier="plasmacutter" ID="3346" rect="-361,21,79,43" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,cuttingequipment,tool,light" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="9">
+        <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+        <LightComponent range="100" castshadows="True" drawbehindsubs="False" ison="False" flicker="0.5" flickerspeed="1" pulsefrequency="0" pulseamount="0" blinkfrequency="0" lightcolor="204,178,255,255" minvoltage="0" powerconsumption="0" voltage="1" vulnerabletoemp="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
+        <RepairTool barrelrotation="0" pickingtime="0" canbepicked="False" allowingameediting="True" msg="">
+          <requireditem items="oxygensource,weldingtoolfuel" type="Contained" optional="false" ignoreineditor="false" excludebroken="true" />
+        </RepairTool>
+        <ItemContainer containablerestrictions="" autofill="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" contained="3347" />
+        <inventory>
+          <Item name="" identifier="oxygentank" ID="3347" condition="70.71192" rect="-327,16,12,33" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" invulnerabletodamage="False" tags="smallitem,oxygensource,refillableoxygensource" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="0">
+            <Holdable holdpos="29.999998,-14.999999" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+          </Item>
+        </inventory>
+      </Item>
+    </inventory>
+    <health>
+      <Affliction identifier="bloodloss" strength="0.23305604" />
+      <Affliction identifier="drunk" strength="19.89835" />
+      <LimbHealth i="0">
+        <Affliction identifier="lacerations" strength="2.4584682" />
+        <Affliction identifier="burn" strength="0.010000001" />
+      </LimbHealth>
+      <LimbHealth i="1">
+        <Affliction identifier="internaldamage" strength="4.4584246" />
+        <Affliction identifier="burn" strength="0.040000003" />
+        <Affliction identifier="bitewounds" strength="2.25" />
+      </LimbHealth>
+      <LimbHealth i="2">
+        <Affliction identifier="burn" strength="5.01" />
+      </LimbHealth>
+      <LimbHealth i="3">
+        <Affliction identifier="burn" strength="5.0200005" />
+      </LimbHealth>
+      <LimbHealth i="4">
+        <Affliction identifier="blunttrauma" strength="13.483042" />
+      </LimbHealth>
+      <LimbHealth i="5">
+        <Affliction identifier="burn" strength="0.13333333" />
+      </LimbHealth>
+    </health>
+    <orders />
+  </CharacterCampaignData>
+</CharacterData>

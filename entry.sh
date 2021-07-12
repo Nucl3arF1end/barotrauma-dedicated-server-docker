@@ -10,13 +10,14 @@
 		+'quit'
 
 # Update settings.xml using ENV varaibles
-SETTINGS_XML=${STEAMAPPDIR}/serversettings.xml
-sed -i 's/password=.*/password="'"$BAR_PASSWORD"'"/' "${SETTINGS_XML}"
-sed -i 's/name=.*/name="'"$BAR_NAME"'"/' "${SETTINGS_XML}"
-sed -i 's/ServerMessage=.*/ServerMessage="'"$BAR_SERVERMESSAGE"'"/' "${SETTINGS_XML}"
-sed -i 's/startwhenclientsready=.*/startwhenclientsready="'"$BAR_START_WHEN_CLIENTS_READY"'"/' "${SETTINGS_XML}"
-sed -i 's/startwhenclientsreadyratio=.*/startwhenclientsreadyratio="'"$BAR_START_WHEN_CLIENTS_READY_RATIO"'"/' "${SETTINGS_XML}"
-sed -i 's/public=.*/public="true"/' "${SETTINGS_XML}"
+#SETTINGS_XML=${STEAMAPPDIR}/serversettings.xml
+#sed -i 's/password=.*/password="'"$BAR_PASSWORD"'"/' "${SETTINGS_XML}"
+#sed -i 's/banafterwrongpassword=.*banafterwrongpassword="'"$BAR_BANPASS"'"/' "${SETTINGS_XML}"
+#sed -i 's/name=.*/name="'"$BAR_NAME"'"/' "${SETTINGS_XML}"
+#sed -i 's/ServerMessage=.*/ServerMessage="'"$BAR_SERVERMESSAGE"'"/' "${SETTINGS_XML}"
+#sed -i 's/startwhenclientsready=.*/startwhenclientsready="'"$BAR_START_WHEN_CLIENTS_READY"'"/' "${SETTINGS_XML}"
+#sed -i 's/startwhenclientsreadyratio=.*/startwhenclientsreadyratio="'"$BAR_START_WHEN_CLIENTS_READY_RATIO"'"/' "${SETTINGS_XML}"
+#sed -i 's/public=.*/public="true"/' "${SETTINGS_XML}"
 
 
 # Create client Permissions
